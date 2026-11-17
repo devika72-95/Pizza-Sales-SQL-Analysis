@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Project-Portfolio-green?style=for-the-badge" alt="Portfolio Project">
 </p>
 
-📌 01. Project Overview
+## 📌 01. Project Overview
 This project focuses on analyzing pizza sales data using PostgreSQL and SQL to uncover meaningful business insights.
 
 The analysis explores sales performance, product popularity, revenue contribution, ordering trends, pricing, and discount patterns.
@@ -18,7 +18,7 @@ A total of 32 selected business questions were addressed using SQL techniques ra
 
 The objective is to demonstrate how structured transactional data can be transformed into meaningful information to support business analysis and decision-making.
 
-🎯 02. Business Objectives
+## 🎯 02. Business Objectives
 The analysis focuses on answering important business questions related to pizza sales.
 
 📈 Sales Performance
@@ -38,7 +38,7 @@ The analysis focuses on answering important business questions related to pizza 
 - Understand discount structures.
 - Analyze revenue contribution and profitability-related metrics.
 
-🗄️ 03. Database Architecture & Schema
+## 🗄️ 03. Database Architecture & Schema
 The project uses a relational database developed in PostgreSQL, consisting of five interconnected tables. Each table manages a specific part of the business data.
 📦 Database Structure at a Glance
 🍕 Product Catalogue — pizza_types
@@ -72,6 +72,7 @@ Maintains discount names and their corresponding percentages.
 discount_id · discount_name · discount_percentage
 🔗 Database Relationship Flow
 The five tables are connected through common identifiers:
+                 ```textn
                  pizza_types
                       |
                  pizza_type_id
@@ -85,12 +86,13 @@ The five tables are connected through common identifiers:
              order_id    discount_id
                 /             \
              orders      discount_structure
+             ```
 💡 Business Relevance
 This relational structure allows information from different tables to be combined using SQL JOIN operations.
 
 It supports product performance analysis, revenue calculations, order trend analysis, and discount-related analysis.
 
-📊 04. Dataset Overview
+## 📊 04. Dataset Overview
 The project uses a Pizza Sales practice dataset containing product, pricing, order, transaction, and discount information.
 Dataset Composition
 🍕 Product Information
@@ -103,7 +105,7 @@ Dataset Composition
 - 4 Discount Structures
 These records form the foundation for the SQL queries and business analysis performed throughout the project.
 
-🛠️ 05. Tools & Technologies
+## 🛠️ 05. Tools & Technologies
 🐘 PostgreSQL
 
 Used for relational database creation, data storage, querying, and business analysis.
@@ -124,7 +126,7 @@ Used for organizing and reviewing the SQL query results.
 
 Used for project documentation, version control, and portfolio presentation.
 
-💻 06. SQL Skills & Concepts Applied
+## 💻 06. SQL Skills & Concepts Applied
 The project covers SQL concepts from fundamental querying to advanced analytical techniques.
 🟢 Fundamental SQL
 - SELECT, FROM, WHERE
@@ -151,7 +153,7 @@ The project covers SQL concepts from fundamental querying to advanced analytical
 - EXISTS
 - CREATE VIEW
 
-🔎 07. Business Questions & Analysis Areas
+## 🔎 07. Business Questions & Analysis Areas
 A total of 32 selected SQL business questions were addressed across multiple analytical areas.
 📈 Sales Performance Analysis
 - Total orders
@@ -183,20 +185,17 @@ A total of 32 selected SQL business questions were addressed across multiple ana
 - Existence checks
 - Reusable SQL views
 
-📁 08. Project Files & Repository Structure
+## 📁 08. Project Files & Repository Structure
 The repository is organized to keep the original dataset, SQL queries, and analytical outputs accessible.
+```text
 Pizza-Sales-SQL-Analysis/
 │
-├── Dataset/
-│   └── Pizza_Sales_Practice_Dataset.xlsx
-│
-├── SQL_Results/
-│   └── Pizza_Sales_32_Approved_SQL_Answers.xlsx
-│
+├── Pizza_Sales_32_Approved_SQL_Answers.xlsx
 ├── Pizza_Sales_Approved_SQL_Queries.sql
-│
+├── Pizza_Sales_Practice_Dataset.xlsx
 └── README.md
-📂 What's Included?
+```
+### 📁 What's Included?
 1. Dataset
 
 Pizza_Sales_Practice_Dataset.xlsx
@@ -221,7 +220,7 @@ README.md
 
 Provides an overview of the project, database structure, analytical objectives, SQL concepts, and workflow.
 
-🔄 09. Project Workflow
+## 🔄 09. Project Workflow
 The project was completed through the following stages:
 
 STEP 01 — Database Creation
@@ -252,7 +251,7 @@ STEP 07 — Project Documentation
 
 Prepared the SQL script, consolidated results, and GitHub documentation.
 
-💡 10. Key Learning Outcomes
+## 💡 10. Key Learning Outcomes
 Through this project, I gained practical experience in:
 - Designing and working with relational databases.
 - Writing SQL queries to solve business-oriented problems.
@@ -263,7 +262,7 @@ Through this project, I gained practical experience in:
 - Organizing query outputs and documenting analytical work.
 The project strengthened my SQL knowledge and helped me understand how database querying can support business analysis.
 
-👩‍💻 11. About the Author
+## 👩‍💻 11. About the Author
 Devika Sutar
 
 Aspiring Data Analyst | SQL | Microsoft Excel | Python | Power BI
